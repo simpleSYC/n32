@@ -1,0 +1,434 @@
+/*
+ Theme Name:   Cloud Games
+ Theme URI:    https://wanted5games.com
+ Description:  Theme 4 Winz
+ Author:       Robin Maree
+ Author URI:   http://robinmaree.com
+ Template:     piecia
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         awesome, for-humans, made-on-planet-earth
+ Text Domain:  cloudgames
+*/
+
+body {
+    color: #2a2f33;
+}
+
+#header {
+    background-color: #001125;
+    height: 70; 
+}
+
+#header .logo .phone .fa, #header .navigation nav ul li a:hover, #tour .part .quotes .quote-single .rate li .fa,
+#hero.v3 .hero-text .features-list li .fa, #tour .part .features-list li .fa , #features .feature .feature-icon .fa {
+    color: #f0c500;
+}
+
+.btn.btn-red {
+    background: #107530;
+}
+#header .navigation nav ul li a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header .navigation nav ul li a.btn.btn-red {
+    color: #fff;
+    background: none;
+    -webkit-box-shadow:inset 0px 0px 0px 1px #fff;
+    -moz-box-shadow:inset 0px 0px 0px 1px #fff;
+    box-shadow:inset 0px 0px 0px 1px #fff;
+    font-weight:bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+#header .navigation nav ul li a, #header .logo .phone, #header .logo .phone .fa {
+    color: #fff;
+}
+
+#header .navigation nav ul li.menu-item-has-children ul {
+    border-top: 2px solid #f0c500;
+}
+
+#header .logo .phone {
+    display: none;
+}
+
+#header .logo .phone i {
+    background-image: url('https://wanted5games.com/wp-content/themes/cloudgames/img/envelope.png');
+    width: 13px;
+    background-size: cover;
+    height: 9px;
+}
+
+#header .logo .phone .fa-envelope:before {
+    content: "";
+}
+
+#header .logo a img {
+    max-width: 168px;
+}
+
+#header .logo a {
+    margin-top: -5px;
+}
+
+#header .logo {
+    margin-top: 0px;
+}
+
+.post a {
+    color: #2a6496;
+}
+
+#tour .part .quotes .quote-single blockquote:hover {
+    border-color: #f0c500;
+}
+
+.page-template-developer-page #hero {
+    background: transparent url('https://wanted5games.com/wp-content/uploads/2016/05/photo-1429051883746-afd9d56fbdaf.jpeg') no-repeat scroll center center;
+    background-size: cover;
+}
+
+.page-template-jobs-page #hero {
+    background: transparent url('https://wanted5games.com/wp-content/uploads/2016/05/haarlem.jpg') no-repeat scroll center center;
+    background-size: cover;
+}
+
+.page-template-publisher-page #hero {
+    background: transparent url('https://wanted5games.com/wp-content/uploads/2019/03/PUBLISHERS-01.png') no-repeat scroll center center;
+    background-size: cover;
+}
+
+.page-template-about-page #hero {
+    background: transparent url('https://wanted5games.com/wp-content/uploads/2016/05/haarlem.jpg') no-repeat scroll center center;
+    background-size: cover;
+}
+
+.page-template-home-page #hero {
+    background-size: cover;
+}
+
+.page-template-home-page #hero.v4 #gradient {
+    display: none;
+}
+
+#hero.v3 .hero-form .default-form .field button {
+    background: #aad329;
+    background: -moz-linear-gradient(top, #aad329 0%, #4c7506 100%);
+    background: -webkit-linear-gradient(top, #aad329 0%,#4c7506 100%);
+    background: linear-gradient(to bottom, #aad329 0%,#4c7506 100%);
+}
+
+#about .person {
+    min-height: 613px;
+    margin-bottom: 20px;
+}
+
+#clients img {
+    max-width: 179px;
+}
+
+input[name=type] {
+    display: none;
+}
+
+.page-template-portfolio-page input {
+    width: 100%;
+    font-size: 13px;
+    border: transparent;
+    border-radius: 3px;
+    background: #ffffff;
+    padding: 10px 15px;
+    height: 40px;
+}
+
+.page-template-portfolio-page #content {
+    background: #f5f5f5;
+}
+
+.page-template-portfolio-page #content h3 {
+    font-size: 14pt;
+    margin-top: 30px;
+}
+
+.page-template-portfolio-page #content p {
+    font-size: 10pt;
+    line-height: 20px;
+    padding-bottom:2px;
+}
+
+.page-template-portfolio-page #content .newsletter {
+    background: #e3e3e3;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.page-template-portfolio-page #content .newsletter button {
+    float: right;
+}
+/*
+.page-template-portfolio-page #search .container {
+    background: #a0abb7;
+    padding: 33px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.page-template-portfolio-page #search select {
+    width: 100%;
+    background: #7d8ea0;
+    height: 41px;
+    color: #2a2a2a;
+    font-weight: bold;
+    text-transform: uppercase;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding-left: 18px;
+    background-image: url('https://wanted5games.com/wp-content/themes/cloudgames/img/select.png');
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 18px;
+    border: 0px;
+}
+
+.page-template-portfolio-page #search a {
+ items-align: center;
+    float: right;
+}
+
+.page-template-portfolio-page #search h4 {
+    color: #fff;
+}
+*/
+.page-template-portfolio-page #games a.btn {
+    width: 88%;
+    margin-bottom: 11px;
+    text-align: center;
+    color: #FFF;
+}
+
+.page-template-portfolio-page #games a.btn.embed, .page-template-portfolio-page #games a.btn.assets {
+    width: calc(50% - 2px);
+}
+
+.page-template-portfolio-page #games .game.template {
+    display: none;
+}
+
+.page-template-portfolio-page #games .game a.btn:nth-child(1) {
+    margin-top: 13px;
+}
+
+.page-template-portfolio-page #games .container {
+    padding: 0px;
+    padding-top: 15px
+}
+
+.page-template-portfolio-page #games .game h3 {
+    text-transform: none;
+    font-size: 13pt;
+    text-align: center;
+    margin-bottom: 22px;
+    margin-top: 18px;
+}
+
+.page-template-portfolio-page #games .game .image {
+    position: relative;
+}
+
+.page-template-portfolio-page #games .game .image img {
+    width:88%;
+}
+
+.page-template-portfolio-page #games .game .ribbon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.page-template-portfolio-page #games .game .ribbon span {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    top: 18px;
+    right: -45px;
+    background: #e3450a;
+    padding: 5px;
+    width: 156px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    line-height: 12px;
+    font-size: 8pt;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.blog article {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: #2a2f33!important;
+}
+
+p {
+    color: #2a2f33;
+}
+
+.meta {
+    display: none;
+}
+
+.page-template-playable-page #tour p {
+    font-size: 16px!important;
+}
+
+.page-template-playable-page #hero {
+    background: transparent url('https://wanted5games.com/wp-content/uploads/2017/05/playables.jpg') no-repeat scroll center center;
+    background-size: cover;
+}
+
+div.playable {
+    position: relative;
+    height: 0;
+    padding-bottom: 70.96%;
+    width: 100%;
+    background-size: contain;
+    background-position: center center;
+    background-image: url('https://wanted5games.com/wp-content/uploads/2016/08/playable.png');
+    background-repeat: no-repeat;
+}
+
+div.playable-wrap {
+    position: absolute;
+    left: 8.82%;
+    top: 6.5%;
+    width: 82.44%;
+    height: 86.99%;
+}
+
+iframe.playable-iframe {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+#about .person p:not(.position) {
+    min-height: 240px;
+}
+
+@media (min-width:961px) {
+    .page-template-playable-page #tour .row {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width:961px) {
+    .page-template-portfolio-page #content .newsletter {
+        padding: 33px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .page-template-portfolio-page #content .newsletter h3 {
+        margin-top: 0px;
+    }
+
+    .page-template-portfolio-page #content .newsletter button {
+        margin-top: 30px;
+    }
+/*
+    .page-template-portfolio-page #search a.btn {
+        margin-top: 30px;
+    }
+
+    .page-template-portfolio-page #search select {
+        margin-top: 15px;
+    }
+*/
+    #header .navigation nav ul li a {
+        color: #001125;
+    }
+
+    #about .person img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width:961px) {
+    .page-template-portfolio-page #content .row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        flex:1 0 auto;
+    }
+
+    .page-template-portfolio-page #games .game .image img {
+        max-height: 160px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page-template-portfolio-page #games .game .image img {
+        max-height: 196px;
+    }
+}
+
+@media (max-width: 768px) {
+    #header .navigation nav {
+        top: 70px;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    #header .navigation nav ul li a {
+        color: #001125;
+    }
+
+    #header .navigation nav ul li a.btn.btn-red {
+        padding: 0px;
+        color: #f0c500;
+    }
+
+    #hero.v4 .hero-text .title, #hero.v3 .hero-text .title, #hero.v1 .hero-text .title {
+        font-size: 30px;
+    }
+
+    #hero.v4, #hero.v3, #hero.v1 {
+        padding: 30px 0;
+    }
+
+    #hero.v4 .hero-text .lead, #hero.v3 .hero-text .lead, #hero.v1 .hero-text .lead{
+        font-size: 14px;
+    }
+
+    #hero.v3 .hero-text .features-list li span {
+        font-size: 13px;
+    }
+
+    .hero-text ul.buttons li {
+        margin-bottom: 15px;
+    }
+
+    .hero-text ul.buttons li a {
+        width: 150px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .page-template-portfolio-page #games .game h3 {
+        font-size: 10pt;
+    }
+}
